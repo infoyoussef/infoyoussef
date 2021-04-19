@@ -1,0 +1,11 @@
+{
+    "tconst":"tconst", 
+    "titleType":"Type DE TITRE", 
+    "primaryTitle":"Titre principal", 
+    "originalTitle":"Titre original", 
+    "isAdult":"est un adulte", 
+    "startYear":"année de début", 
+    "endYear":"année de fin", 
+    "runtimeMinutes":"Minutes d'exécution", 
+    "genres":"genres"
+}

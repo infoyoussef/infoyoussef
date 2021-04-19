@@ -1,0 +1,47 @@
+<h1 mat-dialog-title>Want to receive our emails?</h1>
+<div mat-dialog-content>
+  <p>What's your email?</p>
+  <!--<mat-form-field>-->
+    <input matInput [(ngModel)]="data.tconst">
+  <!--</mat-form-field>-->
+
+  <!--<mat-form-field>-->
+    <input matInput [(ngModel)]="data.titleType">
+  <!--</mat-form-field>-->
+  
+  <!--<mat-form-field>-->
+    <input matInput [(ngModel)]="data.primaryTitle">
+  <!--</mat-form-field>-->
+  
+  <!--<mat-form-field>-->
+    <input matInput [(ngModel)]="data.originalTitle">
+  <!--</mat-form-field>-->
+  
+  <!--<mat-form-field>
+    <mat-radio-button [(ngModel)]="data.isAdult">isAdult</mat-radio-button>
+  </mat-form-field>-->
+  
+  <!--<mat-form-field>-->
+    <mat-checkbox [(ngModel)]="data.isAdult">Hide required marker</mat-checkbox>
+  <!--</mat-form-field>-->
+  
+  <!--<mat-form-field>-->
+    <input matInput [(ngModel)]="data.startYear">
+  <!--</mat-form-field>-->
+  
+  <!--<mat-form-field>-->
+    <input matInput [(ngModel)]="data.endYear">
+  <!--</mat-form-field>-->
+  
+  <!--<mat-form-field>-->
+    <input matInput [(ngModel)]="data.runtimeMinutes">
+  <!--</mat-form-field>-->
+  
+  <!--<mat-form-field>-->
+    <input matInput [(ngModel)]="data.genres">
+  <!--</mat-form-field>-->
+</div>
+<div mat-dialog-actions>
+
+  <button mat-button [mat-dialog-close]="data">Save</button>
+</div>
